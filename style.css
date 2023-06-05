@@ -465,6 +465,9 @@ margin-right: 10px;
             }
 }
 @media screen and (max-width: 480px){
+    .content-swipe h2{
+      font-size: 25px;
+    }
     .about{
         padding-top: 15%;
         display: flex;
