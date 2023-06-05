@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="navbar">
+        <nav>
+            <div class="logo">
+                <a href="">MY<span>PORTFOLIO</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#skills">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="wa.link/86dh17">Contact me</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </section>
+
+       <!-- about me -->
+<section class="about">
+    <div class="main-con">
+        <div class="first-con">
+            <img src="./img/mo.png" alt="" loading="lazy">
+        </div>
+        <div class="second-con">
+            <h3>My name is Muhammad and</h3>
+            <h2>I am a Frontend Web Designer</h2>
+            <a href="wa.link/86dh17">contact me</a>
+        </div>
+    </div>
+</section>
+
+<!-- skills -->
+<section class="skills" id="skills">
+    <div class="skill-detail">
+        <h2>My skills</h2>
+        <div class="first">
+            <img src="./img/PngItem_5194865.png" alt="" loading="lazy">
+            <p>I design websites using html css javascript and graphic designing</p>
+        </div>
+        <div class="second">
+            <img src="./img/PngItem23.png" alt="" loading="lazy">
+            <p>I also design websites using Wordpress</p>
+        </div>
+    </div>
+    <div class="skill-image">
+        <img src="./img/Developer activity-amico.png" alt="" loading="lazy">
+    </div>
+</section>
+
+<!-- recent project -->
+<section class="recent">
+    <div class="main-recent">
+        <h2>My recent Project</h2>
+
+        <div class="recent-image">
+            <img src="./img/movie.JPG" alt="" loading="lazy">
+            <div class="image-body">
+                <a href="https://github.com/KAIDO-ART/movie-site/tree/main">View Github</a>
+                <a href="https://movie-site-self.vercel.app/">View site</a>
+            </div>
+        </div>
+
+        <div class="check-recent">
+           <h3>Movie site</h3>
+           <p>Tap to view</p>
+        </div>
+    </div>
+</section>
+
+<div class="home" id="projects">
+    <div class="discount">
+        <h2>Other projects</h2>
+    </div>
+    <div class="content-start">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="./img/commerce.JPG" alt="" loading="lazy">
+            <div class="content-swipe">
+                <h2>E-commerce</h2>
+               <div class="linkss"><a href="https://github.com/KAIDO-ART/sneak-commerce/tree/main">View Github</a>
+                <a href="https://sneak-commerce.vercel.app/">View site</a>
+               </div> 
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/blockchain.JPG" alt="" loading="lazy">
+            <div class="content-swipe">
+                <h2>Desktop Blockchain replica</h2>
+                <div class="linkss"><a href="https://github.com/KAIDO-ART/sample-blockchain/tree/main">View Github</a>
+                    <a href="https://sample-blockchain.vercel.app/">View site</a>
+                   </div> 
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/login2.JPG" alt="" loading="lazy">
+            <div class="content-swipe">
+                <h2>flowers-e-commerce</h2>
+                <div class="linkss"><a href="https://github.com/KAIDO-ART/flowers-e-commerce/tree/main">View Github</a>
+                    <a href="https://flowers-e-commerce.vercel.app/">View site</a>
+                   </div> 
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/agency.JPG" alt="" loading="lazy">
+            <div class="content-swipe">
+                <h2>Team Agency portfolio</h2>
+                <div class="linkss"><a href="https://github.com/KAIDO-ART/Agency-portfolio/tree/main">View Github</a>
+                    <a href="https://agency-portfolio-two.vercel.app/">View site</a>
+                   </div> 
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <img src="./img/wells.JPG" alt="" loading="lazy">
+            <div class="content-swipe">
+                <h2>sample Banking site</h2>
+                <div class="linkss"><a href="https://github.com/KAIDO-ART/sample-bank/tree/main">View Github</a>
+                    <a href="https://sample-bank.vercel.app/">View site</a>
+                   </div> 
+            </div>
+        </div>
+        
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+   </div>
+</div>
+
+<section class="want-to">
+    <div class="want">
+        <h2>Have a project in mind? <br><span>Lets get to work.</span></h2>
+    </div>
+</section>
+
+
+
+<script src="port.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+     
+<script>
+ var swiper = new Swiper(".mySwiper", {
+   slidesPerView: 1,
+   spaceBetween: 30,
+   loop: true,
+   pagination: {
+     el: ".swiper-pagination",
+     clickable: true,
+   },
+   navigation: {
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
+   },
+ });
+
+ $(document).ready(function(){
+            $('.nav-openbtn').click(function(){
+                $('.links').toggleClass('show')
+            })
+        })
+</script>
+
+
+</body>
+</html>
+
+
